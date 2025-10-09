@@ -43,7 +43,7 @@ def analyze_sequence(seq):
 
 if __name__ == "__main__":
     # citește toate secvențele din fișier
-    sequences = read_fasta("C:\\Users\\Hadassah\\Desktop\\Faculty\\bioinformatics\\example.fasta")
+    sequences = read_fasta("C:\\Users\\Hadassah\\Desktop\\Faculty\\4.1\\BioInf\\bioinformatics\\example.fasta")
 
     # analizează fiecare secvență
     for name, seq in sequences.items():
